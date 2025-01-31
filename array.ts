@@ -6,9 +6,7 @@ names.pop() //It will remove the element from the end of the array
 
 names.unshift("Raj")  //It will add the element at the start of the array
 
-names.shift()  //It will remove the element from the start of the array
 
-names.slice(1,3)  //It will remove the element from the array from index 1 to 3
 
 
 
