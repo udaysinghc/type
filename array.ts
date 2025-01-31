@@ -21,7 +21,6 @@ console.log(empID[2])
 let empInfo:Array<any>=[12,"sumit",true, null]
 console.log(empInfo[0])
 
-// Mutli type array:-
  let empInfo1:(string|number)[]=["sumit",12,"sahu"]
  let val:Array<string|boolean>=["amit",false]
 
