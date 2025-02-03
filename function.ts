@@ -23,3 +23,13 @@ greet("amit")
 
 const multiply=(a: number, b:number):number => a*b
 console.log(multiply(5,10))
+
+function divide(a: number, b: number): number {
+    return a / b;
+}
+console.log(divide(10, 2));
+
+function subtract(a: number, b: number): number {
+    return a - b;
+}
+console.log(subtract(10, 5));
