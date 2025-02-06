@@ -12,6 +12,7 @@ class Employee{
         this.empCity=empCity
         this.empDept=empDept
     }
+    
     display():void{
         console.log(this.empid)
         console.log(this.empName)
@@ -26,23 +27,8 @@ class Employee{
         console.log(this.empDept)
         return "This is all the info of this employee"
     }
-
 }
-
-// let obj1=new Employee();
-// obj1.empid=101
-// obj1.empName="sumit"
-// obj1.empCity="bhp"
-// obj1.empDept="testing"
-
-// console.log("callinFirst method")
-// console.log(obj1.display())
-
-// obj1.displayMessage()
-// console.log(obj1.displayMessage())
 
 let obj=new Employee(101,"john","indore","testing")
 obj.display()
 console.log(obj.displayMessage())
-
-
