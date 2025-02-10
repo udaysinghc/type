@@ -27,5 +27,8 @@ class BankY extends Bank
 let bank1=new BankX()
 console.log("The BankX rate is :-"+bank1.roi())
 
+
 let bank2=new BankY()
+console.log("The BankY rate is :-"+bank2.roi())
+
 

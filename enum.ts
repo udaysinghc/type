@@ -5,26 +5,25 @@
 
 enum Browser{
     chrome,
-    firfox,
+    firefox,
     edge,
     safari
 }
 console.log(Browser.chrome)  //It will print the index of the element
-console.log(Browser.firfox)  //It will print the index of the element
+console.log(Browser.firefox)  //It will print the index of the element
 console.log(Browser)         
 
 
 //  Custom the values:-
 enum Browser1{
-
     chrome=5,
-    firfox=8,
+    firefox=8,
     edge,
     safari
 }
 
-console.log("The output of the custom value of firefox is:-"+Browser1.firfox)
-console.log("The output of custom value of edge is:-"+Browser1.safari)
+console.log("The output of the custom value of firefox is:-"+Browser1.firefox)
+console.log("The output of custom value of safari is:-"+Browser1.safari)
 
 
 function getversion(browserName:string):number{
@@ -36,12 +35,10 @@ function getversion(browserName:string):number{
 }
 
 enum brow{
-
-    firefox,
-    edge,
-    safari,
     chrome=getversion('chrome'),
-    
+    firefox = getversion('firefox'),
+    edge = getversion('edge'),
+    safari = getversion('safari')
 }
 
 console.log(brow.chrome)
@@ -54,13 +51,12 @@ enum environment{
     QA="qa",
     PROD="prod",
     STAGE="staging"
-
 }
 
 console.log(environment.DEV)
 console.log(environment['PROD'])
 
-// hetrogenous enum:-
+// heterogeneous enum:-
 
 enum Status{
     ACTIVE="active",
@@ -71,4 +67,3 @@ enum Status{
 console.log(Status.ACTIVE)
 console.log(Status.DEACTIVE)
 console.log(Status.PENDING)
-
