@@ -8,3 +8,6 @@ function info(a: number, b: number): string {
 }
 
 console.log(info(20, 40))   // This line prints the value.
+
+
+
