@@ -65,18 +65,3 @@ let arr:number[]=[1,2,3,4,6]
 let n:number=6
 console.log("The missing number is:- "+missingNumber(arr,n))
 
-
-// Find second Larget element
-
-function second(num:number[])
-{
-    let min=num[0]
-    num.forEach(element => {
-        if(element<min)
-        {
-            min=element
-        }
-    });
-
-    let max:number=
-}
