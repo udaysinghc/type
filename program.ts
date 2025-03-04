@@ -16,6 +16,7 @@ class Employee implements Person {
         private salary: number
     ) {}
 
+    
     // Method to get employee info
     getInfo(): string {
         return `${this.name} is ${this.age} years old and can be reached at ${this.email}`;
